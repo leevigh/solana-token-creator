@@ -26,7 +26,7 @@ const TokenMetaData = () => {
 
     const explorerLink = () => {
         return txSignature 
-            ? `https://explorer.solana.com/tx/${tokenMintAddress}?cluster=devnet` 
+            ? `https://explorer.solana.com/tx/${txSignature}?cluster=devnet` 
             : "";
     };
 
